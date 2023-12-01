@@ -1,0 +1,21 @@
+<odoo>
+    <record id="project_stage_backlog" model="project.task.type">
+        <field name="sequence">5</field>
+        <field name="name">Backlog</field>
+    </record>
+    <record id="project_stage_in_progress" model="project.task.type">
+        <field name="sequence">10</field>
+        <field name="name">In Progress</field>
+    </record>
+    <record id="project_stage_delivered" model="project.task.type">
+        <field name="sequence">15</field>
+        <field name="name">Delivered</field>
+    </record>
+    
+    <record id="project_stage_done" model="project.task.type">
+        <field name="sequence">20</field>
+        <field name="name">Done</field>
+        <field name="fold" eval="True"/>
+    </record>
+</odoo>
+
