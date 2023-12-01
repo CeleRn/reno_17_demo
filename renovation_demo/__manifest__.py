@@ -5,6 +5,7 @@
     'description': "",
     'depends': [
         'base',
+        'base_automation',
         'web',
         'website',
         'muk_web_theme',
